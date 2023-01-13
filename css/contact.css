@@ -12,8 +12,10 @@
     font-weight: bold;
     text-shadow: 2px 2px #dddddd;
 }
+/******** Navbar ********/
 .navbar{
     margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
     background-color: #dddddd;
     overflow: hidden;
 }
@@ -22,7 +24,7 @@
     margin-left: 2rem;
     margin-top: 1rem;
 }
-img{
+.navImg{
     height: 2.4rem;
     width: 2.5rem;
 }
@@ -45,4 +47,4 @@ img{
 .active{
     background-color: lavender;
     text-decoration: underline;
-}
+} 

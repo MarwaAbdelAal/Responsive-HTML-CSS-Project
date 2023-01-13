@@ -15,6 +15,7 @@
 /******* Navbar *******/
 .navbar{
     margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
     background-color: #dddddd;
     overflow: hidden;
 }
@@ -23,7 +24,7 @@
     margin-left: 2rem;
     margin-top: 1rem;
 }
-img{
+.navImg{
     height: 2.4rem;
     width: 2.5rem;
 }
@@ -49,7 +50,7 @@ img{
     animation: fade 1.5s;
 }
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -63,7 +64,7 @@ img{
   text-align: center;
 }
 .dots{
-    text-align:center
+    text-align: center;
 }
 .dot {
   height: 15px;
@@ -83,4 +84,34 @@ img{
 @keyframes fade{
   from {opacity: .4} 
   to {opacity: 1}
+}
+/******* Products *******/
+.myproduct{
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+.card{
+    text-align: center;
+    padding: 10px;
+}
+.myproduct>.card>img{
+    width: 75%;
+    height: 75%;
+}
+.myproduct>.card>h3{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.myproduct>.card>h3>a{
+    text-decoration: none underline;
+    color: midnightblue;
+}
+.myproduct>.card>h3>a:hover{
+    color: lightseagreen;
+}
+.myproduct>.card>p{
+    font-size: 18px;
+    font-style: italic;
 }

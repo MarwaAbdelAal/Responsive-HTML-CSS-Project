@@ -1,0 +1,16 @@
+/******** Navbar ********/
+#logo{
+    display: none;
+    margin: 0;
+}
+.navImg{
+    display: none;
+}
+.nav-right{
+    float: none;
+}
+.navbar>.nav-right>a{
+    float: none;
+    display: block;
+    width: 100%;
+}
