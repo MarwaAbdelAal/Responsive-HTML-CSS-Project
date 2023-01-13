@@ -1,0 +1,40 @@
+/******** Navbar ********/
+#logo{
+    display: none;
+    margin: 0;
+}
+.navImg{
+    display: none;
+}
+.nav-right{
+    float: none;
+}
+.navbar>.nav-right>a{
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+/******** Product ********/
+.row{
+    margin: 0px;
+}
+.col{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.productImg{
+    margin: 0;
+}
+.card>h3{
+    margin-top: 0;
+    font-size: 50px;
+    color: cadetblue;
+}
+.card>p{
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 15px;
+}
