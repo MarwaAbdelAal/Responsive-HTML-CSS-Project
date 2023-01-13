@@ -17,25 +17,6 @@
     background-color: #dddddd;
     overflow: hidden;
 }
-.navbar>a{
-    float: right;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: midnightblue;
-    text-align: center;
-}
-.navbar>a:not(#logo){
-    padding: 1.5rem 3rem;
-}
-.navbar>a:hover:not(#logo):not(.active){
-    background-color: cadetblue;
-    color: white;
-}
-.active{
-    background-color: lavender;
-    text-decoration: underline;
-}
 #logo{
     float: left;
     margin-left: 2rem;
@@ -44,4 +25,24 @@
 img{
     height: 2.4rem;
     width: 2.5rem;
+}
+.nav-right{
+    float: right;
+}
+.navbar>.nav-right>a{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: midnightblue;
+    text-align: center;
+    padding: 1.5rem 3rem;
+}
+.navbar>.nav-right>a:hover:not(.active){
+    background-color: cadetblue;
+    color: white;
+}
+.active{
+    background-color: lavender;
+    text-decoration: underline;
 }
