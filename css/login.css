@@ -47,3 +47,66 @@
 .active{
     background-color: lavender;
 }
+/******** Login Form ********/
+form{
+    margin: 0 auto;
+    width: 500px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+    border: 1.5px solid darkcyan;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: block;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 16px;
+}
+.login{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 16px;    
+}
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 16px;
+}
+.button{
+    background-color: darkcyan;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.button:hover{
+    background-color: #026666;
+}
+.buttonDiv{
+    margin-top: 20px;
+    padding: 0 40%;
+}

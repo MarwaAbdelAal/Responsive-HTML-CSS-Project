@@ -14,3 +14,17 @@
     display: block;
     width: 100%;
 }
+/******** Login Form ********/
+.col-25, .col-75, input{
+    width: 100%;
+    margin-top: 0;
+}
+form{
+    width: 90%;
+}
+.login{
+    width: 80%;
+}
+.buttonDiv{
+    padding: 0;
+}

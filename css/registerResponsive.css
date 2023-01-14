@@ -14,3 +14,36 @@
     display: block;
     width: 100%;
 }
+/******** Register Form ********/
+.col-25, .col-75, input{
+    width: 100%;
+    margin-top: 0;
+}
+form{
+    width: 90%;
+}
+.register{
+    width: 80%;
+}
+.buttonDiv{
+    padding: 0;
+}
+.col-50{
+    /* float: left; */
+    display: inline-block;
+    width: 50%;
+    /* margin: auto; */
+    margin-top: 6px;
+    text-align: center;
+}
+.radioInput{
+    /* float: left; */
+    width: 25%;
+    margin: 0;
+}
+.radioLabel{
+    float: right;
+    width: 75%;
+    /* display: inline; */
+    padding: 0;
+}
