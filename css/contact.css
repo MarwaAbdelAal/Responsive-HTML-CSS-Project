@@ -112,3 +112,15 @@ label{
     margin-top: 20px;
     padding: 0 40%;
 }
+/******* Footer *******/
+footer{
+    display: inline-block;
+    text-align: center;
+    background-color: #dddddd;
+    color: darkblue;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+}
