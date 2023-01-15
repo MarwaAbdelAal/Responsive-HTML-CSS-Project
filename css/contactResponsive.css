@@ -28,3 +28,7 @@ form{
 .buttonDiv{
     padding: 0;
 }
+/******* Footer *******/
+footer{
+    position: relative;
+}

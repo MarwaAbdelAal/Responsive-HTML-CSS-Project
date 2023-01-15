@@ -47,3 +47,7 @@ form{
     /* display: inline; */
     padding: 0;
 }
+/******* Footer *******/
+footer{
+    position: relative;
+}
